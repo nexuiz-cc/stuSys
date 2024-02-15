@@ -49,7 +49,7 @@ function Home(props) {
                 <td>{item.age}</td>
                 <td>{item.phone}</td>
                 <td>
-                    <NavLink to={`/detail/${item.id}`}>详情</NavLink>
+                    <NavLink to={`/detail/${item.id}`}>詳細</NavLink>
                 </td>
             </tr>
         )
@@ -58,7 +58,7 @@ function Home(props) {
     return (
         <div>
             {showAlert}
-            <h1>学生列表</h1>
+            <h1>学生リスト</h1>
             {/* 搜索框 */}
             <input
                 type="text"
@@ -71,10 +71,10 @@ function Home(props) {
             <table className="table table-striped table-bordered">
                 <thead>
                     <tr>
-                        <th>姓名</th>
-                        <th>年龄</th>
-                        <th>联系方式</th>
-                        <th>操作</th>
+                        <th>お名前</th>
+                        <th>年齢</th>
+                        <th>電話番号</th>
+                        <th>アクション</th>
                     </tr>
                 </thead>
                 <tbody>

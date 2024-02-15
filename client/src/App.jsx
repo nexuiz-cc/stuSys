@@ -3,7 +3,6 @@ import Home from "./components/Home";
 import About from "./components/About";
 import AddOrEdit from "./components/AddOrEdit";
 import Detail from "./components/Detail";
-
 import "./css/App.css"
 
 function App() {
@@ -20,15 +19,15 @@ function App() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <div className="navbar-brand">学生管理系统</div>
+            <div className="navbar-brand">学生管理システム</div>
           </div>
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
-              <NavLink to="/home" className="navigation">主页</NavLink>
-              <NavLink to="/about" className="navigation">关于我们</NavLink>
+              <NavLink to="/home" className="navigation">ホームページ</NavLink>
+              <NavLink to="/about" className="navigation">我々に関して</NavLink>
             </ul>
             <ul className="nav navbar-nav navbar-right">
-              <NavLink to="/add" className="navigation">添加学生</NavLink>
+              <NavLink to="/add" className="navigation">学生を追加</NavLink>
             </ul>
           </div>
         </div>
